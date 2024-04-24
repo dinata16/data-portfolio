@@ -1,5 +1,5 @@
-# Telco Provider Customer Churn
-
+# Telco Customer Churn
+  ![Telco](https://github.com/dinata16/data-science-projects/assets/89764786/72bc5235-e9db-497c-b6ec-b43ecbc511b5)
 
 
 ## Project overview
@@ -10,6 +10,8 @@ However, if the company could forecast which customer are likely discontinue sub
 
 
 ## About the dataset
+The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/c/customer-churn-prediction-2020/overview) with the training dataset contains 4250 samples an each sample contains 19 features and 1 boolean variable "churn" which indicates the class of the sample. The test dataset have unseen class churn.
+
 Here is a description of features that used to this project
 
 | Features         | Type Data | Description                                                |
