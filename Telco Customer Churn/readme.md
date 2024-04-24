@@ -39,3 +39,13 @@ Here is a description of features that used to this project
 |  churn | (yes/no) | Customer churn - target variable. |
 
 
+
+
+## Conclusion
+From Exploratory Data Analysis of Final data test, we know that area code 415 has the highest customer will churn of 51. The states have the highest customer churn are TX (Texas) and NC (North Carolina) i.e. 6 and 5. 
+
+Total day charge and total day minutes have an straight relationship churn count where total day charge and total day minutes increase then customer churn will increase too. It can be seen on correlation feaures and data visualization.
+
+Customer use international plan mostly will churn than stay subscription with the company.
+
+Coming to machine learning models, I have used lazypredict library to evaluate many machine learning models at once. LGBM Classifier has the highest accuracy i.e. 95% and f1-score i.e. 96%. So, LGBM Claasifier is a good fit to predict Customer Churn. I also have used hyperparameter tunning with GridSearch to find the best parameter for LGBM Classifier to predict Customer churn. As we can see that hyperparameter tunning can increase precision score and this is very useful. So we will be confidence with our models to predict Data Test with unseen label (Churn).
