@@ -6,6 +6,11 @@
 ## Project Overview
 This project aim to analyze distribution COVID-19 of Indonesia using Kaggle Dataset or you can view the data in Datasets folder. Then we can find some new insights which province has highest fatality rate and deaths, which province has highest recovered rate, or which province has highest total cases. So, we can apply policy and allocation resources correctly.    
 
+## Tools
+- SQL
+- BigQuery
+- Looker Studio
+
 ## Dashboard
 Dashboard Looker Studio: [Live Dashboard](https://lookerstudio.google.com/reporting/1e778e64-2432-4aef-9f56-b1bbd2a5b3f9)
 
