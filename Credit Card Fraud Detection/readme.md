@@ -1,35 +1,36 @@
-Deteksi Penipuan Kartu Kredit dengan Machine Learning
-Gambaran Umum Proyek
-Proyek ini bertujuan untuk mengembangkan model machine learning yang mampu mendeteksi transaksi kartu kredit yang mencurigakan atau berpotensi penipuan. Model ini dapat membantu lembaga keuangan untuk mengurangi kerugian akibat penipuan dan meningkatkan keamanan transaksi pelanggan.
+# Credit Card Fraud Detection 💳
+<div align="center">
+  <img src="https://github.com/dinata16/data-science-projects/assets/89764786/17476a6a-54d2-431e-9021-6305176495ab" alt="creditcard">
+</div>
 
-Dataset
-Proyek ini menggunakan dataset transaksi kartu kredit yang berisi informasi seperti waktu transaksi, jumlah transaksi, dan berbagai fitur anonim yang dihasilkan dari Principal Component Analysis (PCA). Dataset ini sangat tidak seimbang, dengan transaksi penipuan hanya mewakili sebagian kecil dari total transaksi.
+## Project Overview 
+This project aims to develop a machine learning model capable of detecting suspicious or potentially fraudulent credit card transactions. This model can help financial institutions to reduce fraud losses and improve customer transaction security.
 
-Metodologi
-Analisis Data Eksplorasi (EDA): Memahami distribusi data, mengidentifikasi outlier, dan menganalisis hubungan antar fitur.
-Pra-pemrosesan Data: Menangani nilai yang hilang, melakukan penskalaan fitur, dan mengatasi ketidakseimbangan kelas (misalnya, menggunakan teknik oversampling atau undersampling).
-Pemilihan Fitur: Mengidentifikasi fitur-fitur yang paling relevan untuk pemodelan menggunakan teknik seperti analisis korelasi, Recursive Feature Elimination (RFE), atau SelectFromModel.
-Pemodelan: Mengembangkan dan membandingkan beberapa model machine learning, seperti:
-Logistic Regression
-Random Forest
-Support Vector Machines (SVM)
-XGBoost
-Evaluasi Model: Mengevaluasi performa model menggunakan metrik seperti precision, recall, F1-score, dan Area Under the Receiver Operating Characteristic Curve (AUROC).
-Penyetelan Hyperparameter: Mengoptimalkan hyperparameter model untuk meningkatkan performa.
-Hasil
-Model terbaik yang dihasilkan mampu mendeteksi transaksi penipuan dengan tingkat akurasi dan recall yang tinggi. Model ini juga efektif dalam mengurangi false positive, yaitu transaksi sah yang salah diidentifikasi sebagai penipuan.
+## About The Dataset
+The project utilizes Credit Card Fraud datasets from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data) containing information such as transaction time, transaction amount, and various anonymized features generated through Principal Component Analysis (PCA). This dataset is highly imbalanced, with fraudulent transactions representing only a small fraction of the total transactions.
 
-Kesimpulan
-Proyek ini menunjukkan potensi machine learning dalam mendeteksi penipuan kartu kredit. Model yang dikembangkan dapat menjadi alat yang berharga bagi lembaga keuangan untuk meningkatkan keamanan transaksi dan melindungi pelanggan dari kerugian finansial.
+## Methodology
+Exploratory Data Analysis (EDA): Understand the data distribution, identify outliers, and analyze relationships between features.
+Data Preprocessing: Handle missing values, perform feature scaling, and address class imbalance (e.g., using oversampling or undersampling techniques).
+Feature Selection: Identify the most relevant features for modeling using techniques such as correlation analysis, Recursive Feature Elimination (RFE), or SelectFromModel.
+Modeling: Develop machine learning model Random Forest
+Model Evaluation: Evaluate model performance using metrics like precision, recall, F1-score, and Area Under the Receiver Operating Characteristic Curve (AUROC).
+Hyperparameter Tuning: Optimize model hyperparameters to improve performance.
+Results
+The best-performing model achieved high accuracy and recall rates in detecting fraudulent transactions. The model is also effective in reducing false positives, which are legitimate transactions incorrectly identified as fraudulent.
 
-Saran untuk Pengembangan Lebih Lanjut
-Mencoba arsitektur model yang lebih kompleks, seperti deep learning.
-Mengeksplorasi teknik pengurangan dimensi lain selain PCA.
-Mengumpulkan lebih banyak data untuk meningkatkan performa model.
-Mengembangkan sistem real-time untuk mendeteksi penipuan secara langsung.
-Cara Menggunakan
-Clone repositori ini.
-Install dependencies yang diperlukan.
-Jalankan notebook Jupyter yang disediakan untuk melihat analisis data, pemodelan, dan evaluasi.
-Kontribusi
-Kontribusi sangat diharapkan! Silakan ajukan pull request jika Anda memiliki saran atau perbaikan.
+## Conclusion
+This project demonstrates the potential of machine learning in credit card fraud detection. The developed model can be a valuable tool for financial institutions to enhance transaction security and protect customers from financial losses.
+
+## Suggestions for Further Development
+Experiment with more complex model architectures, such as deep learning.
+Collect more data to improve model performance.
+Develop a real-time system for immediate fraud detection.
+
+## How to Use
+Clone this repository.
+Install the required dependencies.
+Run the provided Jupyter notebook to view the data analysis, modeling, and evaluation.
+
+## Contributions
+Contributions are welcome! Please submit a pull request if you have any suggestions or improvements.
